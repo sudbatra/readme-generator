@@ -1,8 +1,8 @@
-# test 4
+# test5
         
-    ![license](https://img.shields.io/badge/License-MIT-blue)
+![license](https://img.shields.io/badge/License-GNU_General_Public_v3.0-blue)
 
-test 4
+test 5
 
 # Table of Contents
     
@@ -20,17 +20,17 @@ test 4
 undefined
 
 # Usage
-no
+yes
 
 # Credits
-sud batra
+sud
 
 # Questions
 [Reach Me](sud@sud.com)
 [GitHub](https://github.com/sud)
 
 # License
-MIT License
+GNU General Public License v3.0
     
     
 
