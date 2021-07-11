@@ -1,7 +1,7 @@
-# Test Project
+# test 2
         
 
-This is a test project. Just checking if its working
+this is a test 2 project to ensure everything is working correctly
 
 # Table of Contents
     
@@ -19,14 +19,14 @@ This is a test project. Just checking if its working
 undefined
 
 # Usage
-none
+no
 
 # Credits
-Sid Batra
+no
 
 # Questions
 [Reach Me](sudhanshubatra.19@gmail.com)
-[GitHub](https://github.com/sidbatra)
+[GitHub](https://github.com/sudbatra)
 
 # License
 MIT License

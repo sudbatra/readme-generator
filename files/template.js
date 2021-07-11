@@ -20,7 +20,7 @@ const createLicenseBadge = LicenseName => {
     }
     // it returns the image of the License
     return `
-    ![license](https://img.shields.io/badge/License-${licenseName}-blue)`
+    ![license](https://img.shields.io/badge/License-${LicenseName}-blue)`
 }
 
 // The text of the License
