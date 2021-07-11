@@ -93,7 +93,7 @@ const promptUser = () => {
         {
             //Confirmation to add the Licence
             type: 'confirm',
-            name: 'checkLicence',
+            name: 'checkLicense',
             message: 'do you want to add a Licence for your project!',
             default: false
         },
@@ -115,8 +115,8 @@ const promptUser = () => {
         {
             //Confirmation to add Badges
             type: 'confirm',
-            name: 'confirmBadge';
-            message: 'Do you want to add any Badhes?',
+            name: 'confirmBadge',
+            message: 'Do you want to add any Badges?',
             default: false
         },
         {
@@ -132,12 +132,12 @@ const promptUser = () => {
                     return false;
                 }
             }
-        }
+        },
         {
             // Confirmation to add Features
             type: 'confirm',
             name: 'confirmFeatures',
-            message: 'Do you want yo add any features?',
+            message: 'Do you want to add any features?',
             default: false
         },
         {
@@ -156,10 +156,10 @@ const promptUser = () => {
         },
         {
             // Confirmation to add Constribtuion Info
-            type: 'input',
+            type: 'confirm',
             name: 'confirmContribution',
-            message: 'Do you want ro add any Contribution information',
-            default: false,
+            message: 'Do you want to add any Contribution information',
+            default: false
         },
         {
             // when confirmed, Add Contribution information 
@@ -177,10 +177,10 @@ const promptUser = () => {
         },
         {  
             // Confirmation to add Tests
-            type: 'input',
+            type: 'confirm',
             name: 'confirmTest',
             message: 'DO you want to add any Test Information',
-            default: false,
+            default: false
         },
         {
             // When confirmed, add Tests
@@ -233,7 +233,7 @@ promptUser()
     .then(answers =>{
         const userAnswers = template(answers);
 
-        fs.writeFile('./files/README.md', userAnswers, err =>{
+        fs.writeFile('./dir/README.md', userAnswers, err =>{
             if(err) throw err;
             console.log('Your README file has been generated. Please checke the files folder to see the generated README')
         });
