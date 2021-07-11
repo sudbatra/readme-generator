@@ -2,7 +2,7 @@
 
 const createLicenseBadge = licenseName => {
     // if there is no license name selected from the list
-    if (licenseName) {
+    if (!licenseName) {
         return '';
     }
     // if any of the follow are selected
