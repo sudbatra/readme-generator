@@ -1,26 +1,26 @@
 // text for License
 
-const createLicenseBadge = LicenseName => {
+const createLicenseBadge = licenseName => {
     // if there is no license name selected from the list
-    if (LicenseName) {
+    if (licenseName) {
         return '';
     }
     // if any of the follow are selected
-    if (LicenseName.includes('GNU')) {
-        LicenseName = 'GNU_General_Public_v3.0';
+    if (licenseName.includes('GNU')) {
+        licenseName = 'GNU_General_Public_v3.0';
     }
-    if (LicenseName.includes('MIT')) {
-        LicenseName = 'MIT';
+    if (licenseName.includes('MIT')) {
+        licenseName = 'MIT';
     }
-    if (LicenseName.includes('Mozilla')) {
-        LicenseName = 'Mozilla_Public_2.0';
+    if (licenseName.includes('Mozilla')) {
+        licenseName = 'Mozilla_Public_2.0';
     }
-    if (LicenseName.includes('Unlicense')) {
-        LicenseName = 'The_Unlicense';
+    if (licenseName.includes('Unlicense')) {
+        licenseName = 'The_Unlicense';
     }
     // it returns the image of the License
     return `
-    ![license](https://img.shields.io/badge/License-${LicenseName}-blue)`
+    ![license](https://img.shields.io/badge/License-${licenseName}-blue)`
 }
 
 // The text of the License
